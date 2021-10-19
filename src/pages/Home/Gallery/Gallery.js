@@ -4,6 +4,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 const Gallery = () => {
     return (
         <div className="container">
+            <h1 className="text-center mt-5 mb-4">Our Galler</h1>
             <Row xs={1} md={3} className="g-4">
                 <Col>
                     <Card>

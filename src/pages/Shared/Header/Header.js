@@ -7,9 +7,9 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header">
-            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
+            <Navbar className="bg-transparent-color" bg="bg-transparent-color" variant="bg-transparent-color" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
-                    <Navbar.Brand href="#home">Fitness Point</Navbar.Brand>
+                    <Navbar.Brand variant="logo" href="#home">Fitness Point</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home">Home</Nav.Link>

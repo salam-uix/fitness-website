@@ -2,7 +2,7 @@
     text-align: center;
 }
 .logo{
-    height: 50px;
+    height: 60px;
 }
 .header nav {
     background-color: black;
@@ -17,4 +17,7 @@
 }
 .header nav a:hover{
     background-color: lightgray;
+}
+.bg-transparent-color{
+background: transparent;
 }

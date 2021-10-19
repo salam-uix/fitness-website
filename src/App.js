@@ -9,6 +9,8 @@ import Services from './pages/Home/Services/Services';
 import AboutUs from './pages/Home/AboutUs/AboutUs';
 import ContactUs from './pages/Home/ContactUs/ContactUs';
 import Header from './pages/Shared/Header/Header';
+import Gallery from './pages/Home/Gallery/Gallery';
+import Footer from './pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
           <Services></Services>
         </Route>
         <Route path="/gallery">
-          <Services></Services>
+          <Gallery></Gallery>
         </Route>
         <Route path="/about">
           <AboutUs></AboutUs>
@@ -43,6 +45,7 @@ function App() {
           <NotFound></NotFound>
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }

@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Fitness Point](https://fitness-point-11a1f.web.app/).
 
 ## Available Scripts
 

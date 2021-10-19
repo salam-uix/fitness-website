@@ -1,0 +1,18 @@
+.who-we-border{
+    border-left: 2px solid #EE4F15;
+}
+.who-we-border> h1> span{
+    color: #EE4F15;
+}
+.word-color{
+    color:  #EE4F15;
+}
+.f-button-color{
+    background-color: #EE4F15;
+    color: white;
+    font-weight: 600;
+}
+.f-button-color:hover{
+    background-color: #fa5b21;
+    color: rgb(238, 238, 238);
+}

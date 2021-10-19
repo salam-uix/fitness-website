@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <h1>Edu-Next</h1>
+                                <h1>Fitnes Point</h1>
 
                                 <p className="mt-4 ">
                                     <small>
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className="mt-5 text-center">
-                        <small>Edu-next © . All rights reserved.</small>
+                        <small>Fitnes Point © . All rights reserved.</small>
                     </p>
                 </div>
             </div>

@@ -12,11 +12,11 @@ const Header = () => {
                     <Navbar.Brand variant="logo" href="#home">Fitness Point</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="/services">Our services</Nav.Link>
-                        <Nav.Link as={HashLink} to="/gallery">Gallery</Nav.Link>
-                        <Nav.Link as={HashLink} to="/about">About us</Nav.Link>
-                        <Nav.Link as={HashLink} to="/contact">Contact us</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="/services#services">Our services</Nav.Link>
+                        <Nav.Link as={HashLink} to="/gallery#gallery">Gallery</Nav.Link>
+                        <Nav.Link as={HashLink} to="/about#about">About us</Nav.Link>
+                        <Nav.Link as={HashLink} to="/contact#contact">Contact us</Nav.Link>
                         <Nav.Link as={Link} to="/login">Login</Nav.Link>
 
                     </Navbar.Collapse>

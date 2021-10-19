@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Weight lifting",
+        "price": "500",
+        "description": "Weightlifting is an athletic discipline which requires lifting of heavy weights in a progressive manner.",
+        "img": "https://i.ibb.co/CQfNZpk/weight-lifting2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "General Yoga",
+        "price": "600",
+        "description": "Therapeutic yoga classes are gentle and include yoga poses modified to individual's needs, gentle movement sequences to help improve the body's movement patterns, yogic breath techniques, and guided relaxation.",
+        "img": "https://i.ibb.co/khGBMSb/weight-lifting.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Advanced Fitness",
+        "price": "1000",
+        "description": "Experts define physical fitness as “one's ability to execute daily activities with optimal performance, endurance, and strength with the management of disease, fatigue, and stress and reduced sedentary behavior.",
+        "img": "https://i.ibb.co/ftDxNnP/weight.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Running",
+        "price": "400",
+        "description": "It is defined in sporting terms as a gait in which at some point all feet are off the ground at the same time. It is a form of both anaerobic exercise and aerobic exercise",
+        "img": "https://i.ibb.co/Lpyp8BY/running.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Free Head",
+        "price": "450",
+        "description": "Freehand exercises consist of push-ups, dips between chairs, dips on a bench, rowing between chairs, rope climbs (if there is a gymnasium accessible!), pull-ups, knee bends",
+        "img": "https://i.ibb.co/Wx0fDpf/freehead.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Advanced Yoga",
+        "price": "650",
+        "description": "The most dynamic and vigorous form of yoga, Ashtanga approaches yoga with a continuous flow of movement. Top athletes who seek a more intense workout enjoy this form of yoga,",
+        "img": "https://i.ibb.co/pb8KF8n/advanced-yoga.jpg"
+    }
+]

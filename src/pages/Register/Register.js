@@ -28,7 +28,7 @@ const Register = () => {
             </Form>
             <br /><br />
             <span>Already register?
-                <Link style={{ backgroundColor: "#EE4F15", color: "white" }} className="btn" to="/login">Please Login</Link>
+                <Link style={{ borderBottomColor: "#EE4F15" }} className="btn" to="/login">Please Login</Link>
             </span>
         </div>
     );

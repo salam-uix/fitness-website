@@ -28,7 +28,7 @@ const Login = () => {
             </Form>
             <br /><br />
             <span>New user?
-                <Link style={{ backgroundColor: "#EE4F15", color: "white" }} className="btn" to="/register">Please Register</Link>
+                <Link style={{ borderBottomColor: "#EE4F15" }} className="btn" to="/register">Please Register</Link>
             </span>
 
         </div>

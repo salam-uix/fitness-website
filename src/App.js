@@ -5,16 +5,33 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import NotFound from './pages/NotFound/NotFound';
+import Services from './pages/Home/Services/Services';
+import AboutUs from './pages/Home/AboutUs/AboutUs';
+import ContactUs from './pages/Home/ContactUs/ContactUs';
+import Header from './pages/Shared/Header/Header';
 
 function App() {
   return (
     <Router>
+      <Header></Header>
       <Switch>
         <Route exact path="/">
           <Home></Home>
         </Route>
         <Route path="/home">
           <Home></Home>
+        </Route>
+        <Route path="/services">
+          <Services></Services>
+        </Route>
+        <Route path="/gallery">
+          <Services></Services>
+        </Route>
+        <Route path="/about">
+          <AboutUs></AboutUs>
+        </Route>
+        <Route path="/contact">
+          <ContactUs></ContactUs>
         </Route>
         <Route path="/login">
           <Login></Login>

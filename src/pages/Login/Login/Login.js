@@ -1,11 +1,14 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 const Login = () => {
+    const { signInUsingGoogle } = useAuth();
     return (
         <div className="container w-25 mt-5">
             <h4>This is login</h4>
+            <button onClick={signInUsingGoogle}>Google sign in</button>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>

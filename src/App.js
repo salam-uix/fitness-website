@@ -13,6 +13,7 @@ import Gallery from './pages/Home/Gallery/Gallery';
 import Footer from './pages/Shared/Footer/Footer';
 import EnrollCourse from './pages/EnrollCourse/EnrollCourse';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -26,12 +27,14 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/getcourse/:serviceId">
-            <EnrollCourse></EnrollCourse>
-          </Route>
+
           <Route path="/services">
             <Services></Services>
           </Route>
+          <PrivateRoute path="/getcourse/:serviceId">
+            <EnrollCourse></EnrollCourse>
+          </PrivateRoute>
+
           <Route path="/gallery">
             <Gallery></Gallery>
           </Route>

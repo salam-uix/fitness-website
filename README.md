@@ -4,15 +4,26 @@ The name of our project is [Fitness Point](https://fitness-point-11a1f.web.app/)
 
 ## Available Scripts
 
-In the project directory, you can run:
+In this i use css, bootstrap, react.js, react router dom, firebase etc
 
-### `npm start`
+### `Firebase`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project i include google sign in using firebase. Just click on google sign in then it will redirect to your gmail authentication.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `PrivateRoute`
+
+There is a private route functionality to prevent non register user acces. So it will be safe for user.
+
+### `Destructuring`
+
+I use destructure method to use data dinamicaly. 
+
+### `Email authentication`
+
+User can do register by their email by putting email, valid password. This process is safe and easy to understand.
+
+
+
 
 ### `npm test`
 

@@ -30,6 +30,8 @@ const Register = () => {
             <span>Already register?
                 <Link style={{ borderBottomColor: "#EE4F15" }} className="btn" to="/login">Please Login</Link>
             </span>
+
+
         </div>
     );
 };

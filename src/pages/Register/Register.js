@@ -1,8 +1,10 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
+    const { signInUsingGoogle, signInUsingGitHub } = useAuth();
     return (
         <div className="container w-25 mt-5">
             <h4>Please Register</h4>
@@ -30,6 +32,9 @@ const Register = () => {
             <span>Already register?
                 <Link style={{ borderBottomColor: "#EE4F15" }} className="btn" to="/login">Please Login</Link>
             </span>
+            <br /><br />
+            <button onClick={signInUsingGoogle}>Google sign in</button>
+            <button onClick={signInUsingGitHub}>Github sign in</button>
 
 
         </div>

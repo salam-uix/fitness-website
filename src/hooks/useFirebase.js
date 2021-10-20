@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, GithubAuthProvider } from "firebase/auth";
 import { useState, useEffect } from 'react';
 import initializeAuthentication from "../pages/Login/Firebase/firebase.init";
 
@@ -6,10 +6,6 @@ initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();
@@ -27,19 +23,15 @@ const useFirebase = () => {
     }
 
 
-    // Email password login
-    const signInUsingEmail = () => {
+    // Git hub login
+    const signInUsingGitHub = () => {
 
-        signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // Signed in
-                const user = userCredential.user;
-                // ...
+        const gitHubProvider = new GithubAuthProvider();
+        signInWithPopup(auth, gitHubProvider)
+            .then(result => {
+                setUser(result.user)
             })
-            .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-            });
+
     }
 
     // observe user state change
@@ -67,6 +59,7 @@ const useFirebase = () => {
         user,
         isLoading,
         signInUsingGoogle,
+        signInUsingGitHub,
         logOut
     }
 }

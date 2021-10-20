@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div className="container w-25 mt-5">
             <h4>This is login</h4>
-            <button onClick={signInUsingGoogle}>Google sign in</button>
+
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -33,6 +33,8 @@ const Login = () => {
             <span>New user?
                 <Link style={{ borderBottomColor: "#EE4F15" }} className="btn" to="/register">Please Register</Link>
             </span>
+            <br /><br />
+            <button onClick={signInUsingGoogle}>Google sign in</button>
 
         </div>
     );
